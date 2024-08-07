@@ -1,8 +1,8 @@
 # Favtool
 
-Since macOS BigSur, Apple gave users a certian degree of customisation on Safari's homescreen. However, it is not unusual to see Safari not rendering favicon correctly, leaving ugly grey squares. This issue is well known, and related with the fact that sites have to provide special "Apple Touch Icon" images (which is the equivalent of a generic favicon), compliant to some Apple guidelines. Favtool allows you to quickly and easily customize favicons, by just dropping in your custom icons. 
+Since macOS Big Sur, Apple gave users a certain degree of customisation on Safari's homescreen. However, it is not unusual to see Safari not rendering favicon correctly, leaving ugly grey squares. This issue is well known, and related with the fact that sites have to provide special "Apple Touch Icon" images (which is the equivalent of a generic favicon), compliant to some Apple guidelines. Favtool allows you to quickly and easily customize favicons, by just dropping in your custom icons. 
 
-☕️ Take in mind that Favtool is a free-to-use software, developed by a single person, who spent month trobleshooting lines of code, trying to provide regular updates and listening to user hints. So, enjoy  Favtool, leave a nice comment and if you can, contribute with a small donation! 
+☕️ Bear in mind that Favtool is a free-to-use software, developed by a single person, who spent months trobleshooting lines of code, trying to provide regular updates and listening to user hints. So, enjoy  Favtool, leave a nice comment, and if you can, contribute with a small donation! 
 
 You can contribute by clicking the "donate" button on the app 🙏🏻 
 
@@ -14,22 +14,22 @@ You can contribute by clicking the "donate" button on the app 🙏🏻
 
 ## Getting Started
 
-Get the source, and double clik on the `.dmg` file. Here you will find the application itself or the pre compiled (raccomanded) last release. Please, if a pre-release is available, download it only if you are committed to contribute, those are not stable and for beta testing only.
+Get the source, and double click on the `.dmg` file. Here you will find the application itself or the pre compiled (recommended) last release. Please, if a pre-release is available, download it only if you are committed to contribute, those are not stable and for beta testing only.
 
 ### Apple can’t check app for malicious software
 Whenever Favtool is run for the first time, the message ***"Apple can’t check app for malicious software"*** might be shown. In order to run favtool ctrl-click the app and select *"Open"*.
 
 <img src="https://github.com/shy-neon/favtool/blob/main/images/alert.png" width="274"  />
 
-Of course Favtool does not contain any malicious software, this is just a very bad way for Apple to commit developer into buying a 99$/y developer subscription, no words.
+Of course Favtool does not contain any malicious software, this is just a very bad way for Apple to commit a developer into buying a 99$/y developer subscription, no words.
 
 ### File system permission
 
-Favtool needs to access the folder containing the icons and a database containg your favourite list. Therefore, during the first run Favtool will ask you to access the folder located in  `~/Library/Safari/Touch Icons Cache`. Select *"Grant Access"* a finder panel will show up, select "Authorize".: this will allow favtool to read/write the folder in which the icons are located. Once the access in granted the list on the sidebar will be populated by your favourite sites.
+Favtool needs to access the folder containing the icons and a database containg your favourite list. Therefore, during the first run, Favtool will ask you to access the folder located in  `~/Library/Safari/Touch Icons Cache`. Select *"Grant Access"* a finder panel will show up, select "Authorize".: this will allow favtool to read/write to the folder in which the icons are located. Once the access is granted the list on the sidebar will be populated by your favourite sites.
 
-💡If you get the message "table not ready" close safari, and reopen it with no tab open other than the "home page" ( topsites:// ), then click on "try again"
+💡If you get the message "table not ready" close safari, and reopen it with no tabs open other than the "home page" ( topsites:// ), then click on "try again"
 
-⚠️ After the first icon is changed, favtool locks the folder located in: `~/Library/Safari/Touch Icons Cache`. This prevents Safari from automatically restoring the default icons. If you want to unlock this folder click on *"File"* in the menu bar and then *"Unlock Images Folder"* (or use the ⌘U shortcut. However, make sure to keep Safari closed as long as the folder is unlocked, otherwise icons may be restored).
+⚠️ After the first icon is changed, favtool locks the folder located in: `~/Library/Safari/Touch Icons Cache`. This prevents Safari from automatically restoring the default icons. If you want to unlock this folder, click on *"File"* in the menu bar and then *"Unlock Images Folder"* (or use the ⌘U shortcut. However, make sure to keep Safari closed as long as the folder is unlocked, otherwise icons may be restored).
 
 ## How to use
 
@@ -53,13 +53,13 @@ If you want to delete a single site, you can select it and click the "trash" but
 
 ### Icon style
 
-Other than the icon itself you can choose the style used by safari to render the icon itself. The choices are "Big, transparent", "Small, glass". "big glass"
+Other than the icon itself, you can choose the style used by safari to render the icon itself. The choices are "Big, transparent", "Small, glass". "Big glass"
 
 <img src="https://github.com/shy-neon/favtool/blob/main/images/styles.png" width="474"  />
 
 1. "Big, transparent" indicated for solid or gradient background icons
-2. "Small, glass" applyes for transparent background icons, if applied on a solid background image, a padding around the image will appear.
-3. "Big, glass" usually applies for transparent background icons, but the icon will result bigger it is less common than the small variant, but still is provided by safari an therefore is in this list.
+2. "Small, glass" applies for transparent background icons, if applied on a solid background image, a padding around the image will appear.
+3. "Big, glass" usually applies for transparent background icons, but the icon will result bigger it is less common than the small variant, but still is provided by safari and is therefore in this list.
 
 Other styles are apparently used by safari, but strangely they seem to have no effect on the icon, the site using those styles will display the generic "select" prompt.
 
